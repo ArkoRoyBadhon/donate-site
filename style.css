@@ -1,0 +1,250 @@
+body {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.banner-area{
+    height: 700px;
+    width: 100%;
+    background-image: url(./images/donation4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.banner-items{
+    padding-top: 200px;
+    color: whitesmoke;
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.8));
+    height: 500px;
+    width: 100%;
+}
+
+.banner-items h1 {
+    font-size: 80px;
+}
+
+.banner-items p {
+    font-size: 30px;
+    margin-top: -30px;
+}
+
+.donate-btn{
+    height: 35px;
+    width: 160px;
+    background-color: tomato;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    margin-left: 45%;
+    padding-top: 30px;
+    cursor: pointer;
+}
+.donate-btn p {
+   font-size: 20px;
+   padding-top: 20px;
+}
+
+/* donate today css */
+.donate-today{
+    height: 550px;
+    width: 50%;
+    padding: 40px 0;
+    text-align: center;
+    margin: 0 auto;
+}
+.donate-header h2{
+    font-size: 50px;
+}
+#donate-header-p{
+    font-size: 25px;
+    margin-top: -30px;
+    color: darkgrey;
+}
+.donate-amount {
+    display: flex;
+}
+.amount {
+    height: 80px;
+    width: 180px;
+    background-color: bisque;
+    margin-right: 20px;
+    font-size: 28px;
+    border-radius: 5px;
+    border: 3px solid bisque;
+    color: rgb(115, 125, 122);
+    padding-top: 50px;
+}
+
+.amount:hover{
+    background-color: rgb(244, 166, 166);
+    border: 3px solid red;
+    color: red;
+}
+.selected{
+    background-color: rgb(244, 166, 166);
+    border: 3px solid red;
+    color: red;
+}
+#input-amount{
+    border-radius: 5px;
+    padding: 10px 200px;
+    margin: 30px 0;
+}
+.donate-btn-2{
+    height: 35px;
+    width: 160px;
+    background-color: tomato;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    margin-left: 40%;
+    padding-top: 15px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* donate plan  */
+
+.donate-plan{
+    text-align: center;
+    height: 550px;
+    width: 80%;
+    padding: 40px 0;
+    margin: 0 auto;
+}
+.plan-list{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.plan-item{
+    text-align: center;
+    height: 250px;
+    width: 300px;
+    background-color: blanchedalmond;
+    padding: 20px 10px;
+    border-radius: 10px;
+}
+.img img{
+    height: 80px;
+    width: 60px;
+}
+.plan-item h3{
+    font-size: 22px;
+}
+.plan-item p{
+    font-size: 16px;
+    color: rgba(112, 112, 112);
+}
+
+/* coun section  */
+.total-count {
+    height: 250px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    background-color: cadetblue;
+    align-items: center;
+
+}
+.number{
+    color: whitesmoke;
+    font-size: 60px;
+    font-weight: 700;
+}
+.total-count h4{
+    color: brown;
+    font-size: 25px;
+}
+
+
+/* our necessity  */
+
+.our-necessity{
+    display: flex;
+    height: 500px;
+    width: 80%;
+    margin: 100px auto;   
+    padding: 0 20px;
+}
+
+.need-img img{
+    height: 500px;
+    width: 500px;
+    border-radius: 5px;
+    
+}
+.description{
+    width: 50%;
+    text-align: center;
+    margin-left: 30px;
+}
+.description h3{
+    font-size: 35px;
+    font-weight: 700;
+}
+.description p{
+    font-size: 25px;
+    font-weight: 500;
+    color: rgba(112, 112, 112);
+}
+.donate-btn-3{
+    height: 35px;
+    width: 190px;
+    background-color: tomato;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    margin-left: 40%;
+    padding-top: 15px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+/* get update section  */
+.get-update {
+    text-align: center;
+    height: 450px;
+}
+.box-email{
+    height: 150px;
+    width: 450px;
+    background-color: bisque;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+#subscribe-input{
+    height: 30px;
+    border-color: aqua;
+    border-radius: 10px;
+    padding: 0 40px;
+}
+#subscribe-btn{
+    height: 30px;
+    border-color: aqua;
+    border-radius: 10px;
+    padding: 0 40px;
+}
+
+/* footer area  */
+.footer-area{
+    height: 40px;
+    width: 100%;
+    background-color: cadetblue;
+    text-align: center;
+}
+
+
